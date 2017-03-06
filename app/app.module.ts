@@ -12,8 +12,8 @@ import {
   EventRouteActivator,
   EventListResolver,
   CreateSessionComponent,
-  SessionListComponent
-
+  SessionListComponent,
+  DurationPipe
  } from './events/index';
 
 import { EventsAppComponent } from './events-app.component';
@@ -42,6 +42,7 @@ import { appRoutes } from './routes';
     CreateSessionComponent,
     SessionListComponent,
     CollapsibleWellComponent,
+    DurationPipe,
     ErrorComponent
   ],
   providers: [ 

@@ -41,6 +41,7 @@ var AppModule = (function () {
                 index_1.CreateSessionComponent,
                 index_1.SessionListComponent,
                 collapsible_well_component_1.CollapsibleWellComponent,
+                index_1.DurationPipe,
                 _404_component_1.ErrorComponent
             ],
             providers: [
