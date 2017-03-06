@@ -15,6 +15,7 @@ var EventDetailsComponent = (function () {
     function EventDetailsComponent(eventService, route) {
         this.eventService = eventService;
         this.route = route;
+        this.filterBy = 'all';
     }
     EventDetailsComponent.prototype.ngOnInit = function () {
         //the plus before this.route.snapshot means we are "casting" this to a number

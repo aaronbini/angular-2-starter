@@ -18,6 +18,7 @@ export class EventDetailsComponent {
 
   event:IEvent
   addMode:boolean
+  filterBy:string = 'all'
 
   ngOnInit () {
     //the plus before this.route.snapshot means we are "casting" this to a number
